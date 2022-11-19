@@ -1,6 +1,6 @@
 import React from 'react';
 import './Headerthree.css';
-import arrow from '../../images/arrow.svg';
+// import arrow from '../../images/arrow.svg';
 import {MdArrowForwardIos} from 'react-icons/md';
 function Headerthree() {
   return (

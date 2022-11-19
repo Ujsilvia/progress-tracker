@@ -1,10 +1,7 @@
 import React from "react";
 import "./Mainbody.css";
-import zana from "../../images/zana.svg";
-import excel from "../../images/excel.svg";
 import mec1 from "../../images/mec1.svg";
 import mec2 from "../../images/mec2.svg";
-import nina from "../../images/nina.svg";
 import leads from '../../images/leads.svg';
 
 function Mainbody() {
