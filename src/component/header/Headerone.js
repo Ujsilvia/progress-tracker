@@ -6,6 +6,7 @@ import searchicon from '../../images/searchicon.svg'
 
 function Headerone() {
   return (
+    <>
     <div className='hng__logo'>
 
       <div ><img src = {hnglogo} alt = "hnglogo" /></div>
@@ -16,16 +17,16 @@ function Headerone() {
         <p>About HNG</p>
       </div>
      
-      <div>
+      <div className='searchbar'>
       <img src = {searchicon} alt = "searchicon" />
+      <input placeholder= "Search about HNG, Teams and mentors" />
+     
+      </div>
       
       
       </div>
-   
+      </>
 
-
-
-    </div>
   )
 }
 

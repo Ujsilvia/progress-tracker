@@ -5,6 +5,7 @@ import excel from "../../images/excel.svg";
 import mec1 from "../../images/mec1.svg";
 import mec2 from "../../images/mec2.svg";
 import nina from "../../images/nina.svg";
+import leads from '../../images/leads.svg';
 
 function Mainbody() {
   return (
@@ -41,22 +42,21 @@ function Mainbody() {
 
       {/* SECOND */}
       <div className="leadWrapper">
-        <div>
-          <h3>All Leads</h3>
-        </div>
+        
         <div className="lead">
+
           <div className="leadTab">
-            <img src={zana} alt="zana" />
-            <div>
-            Zana 
-              <p>PM Team </p>
+            <img src={leads} alt="lea" />
+            
             </div>
-            <div>
-              <p>Mechanic-team-axle</p>
-            </div>
-          </div>
+
+      
+        
         </div>
       </div>
+
+
+    
     </div>
   );
 }

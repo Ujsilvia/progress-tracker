@@ -15,7 +15,7 @@ function Headerthree() {
    <div id='sort__team'>
     <div>Sort By</div>
     <div className='selectTeam'>
-    <select className='selectTeam2'>
+    <select className='selectTeam'>
       <option selected>Team Lead</option>
     </select>
     </div>

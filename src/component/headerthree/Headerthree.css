@@ -14,6 +14,8 @@
     flex-grow: 1;
 }
 
+
+
 #sort__teamss{
     padding:0 6%;
     width: 30rem;
@@ -23,6 +25,16 @@
     justify-content: space-between;
     gap: 18px;
     margin-top: 3%;
+}
+
+
+@media only screen and (max-width: 600px){
+    #sort__teamss{
+    flex-direction: column;
+   margin-left: auto;
+   margin-right: auto;
+   width:100%;
+}
 }
 
 .selectTeam, .selectTeam2{

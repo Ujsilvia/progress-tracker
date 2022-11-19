@@ -5,20 +5,34 @@
     height: 100%;
     gap: 10px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     margin:4% 6% 0 6%;
 
+
 }
+
 
 .mechanicInfo{
     width: 100%;
 }
+
+@media only screen and (max-width: 600px){
+    .mechanicInfo{
+    flex-direction: column;
+   margin-left: auto;
+   margin-right: auto;
+   width:100%;
+}
+}
+
+
 .machanic{
     border-radius: 8px;
     border: 0.5px solid #E6E6E6;
-    padding: 2%;
+    padding: 5%;
     margin-bottom:6%;
-    background-color: #FDFEFF;
+    background-color:#FDFEFF;
+    margin-right:4%;
 }
 
 .mec-team{
@@ -28,6 +42,7 @@
     margin: 2% 0 5% 0;
     padding-right:20px ;
 }
+
 
 .team-count{
     display: flex;
@@ -39,6 +54,7 @@
     background-color: #FDF0F0;
     flex-grow: 1;
 }
+
 
 .team-count > :nth-child(even){
     background-color: #EFF2F9;
@@ -52,23 +68,56 @@
     padding: 0 2%;
 }
 
+@media only screen and (max-width: 600px){
+    .team-count{
+    flex-direction: column;
+   margin-left: auto;
+   margin-right: auto;
+   width:100%;
+}
+}
+
+
 /* =====SECOND====== */
 .leadWrapper{
 background-color: #E5F2FF;
 width: 60%;
+position:relative;
+margin-top:3px;
+padding-top:3px;
+
 }
 
 .lead{
     display: flex;
-    width: 100%;
-    flex-direction: column;
-    padding: 4%;
 }
 
 .leadTab{
-    width: 100%;
     display: flex;
-    align-items: center;
-    /* border: 2px solid red; */
-    justify-content: space-between;
+    height:450px;
+
+}
+
+@media only screen and (max-width: 600px){
+    .leadTab{
+    flex-direction: column;
+   margin-left: auto;
+   margin-right: auto;
+}
+}
+
+
+all__leads{
+    /* align-items:left; */
+   position:left;
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .mechanicWrapper{
+    flex-direction: column;
+   margin-left: auto;
+   margin-right: auto;
+}
 }

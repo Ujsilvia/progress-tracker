@@ -21,3 +21,40 @@
 }
 
 
+
+.searchbar{
+    display: flex;
+    border: 2px solid grey;
+    border-radius:20px;
+    padding:10px;
+}
+
+.searchbar input{
+   width: 300px;
+   border: none;
+   height:20px;
+   size:30px;
+   
+}
+
+
+@media only screen and (max-width: 600px){
+    #searchbar{
+    flex-direction:row;
+   margin-left: auto;
+   margin-right: auto;
+   /* width:100%; */
+}
+}
+
+
+@media only screen and (max-width: 600px){
+    #headerone{
+    flex-direction:row;
+   margin-left: auto;
+   margin-right: auto;
+   /* width:100%; */
+}
+}
+
+
