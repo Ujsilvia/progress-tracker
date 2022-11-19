@@ -1,0 +1,13 @@
+#header_two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.5%;
+    width: 100%;
+    font-family: 'Red Rose';
+    font-style:normal;
+    font-weight:400;
+    font-size:20px;  
+    border:10px solid #F8F8F8;
+    background:#F8F8F8 ;
+}

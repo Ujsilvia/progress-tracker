@@ -1,0 +1,23 @@
+.hng__logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 2% 6.5%;
+    gap: 48px
+}
+
+#headerone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.5%;
+    width: 100%;
+    font-family: 'Red Rose';
+    font-style:normal;
+    font-weight:400;
+    font-size:20px;
+}
+
+
