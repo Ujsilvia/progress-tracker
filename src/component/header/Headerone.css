@@ -45,16 +45,21 @@
    margin-right: auto;
    /* width:100%; */
 }
-}
 
-
-@media only screen and (max-width: 600px){
-    #headerone{
+#headerone{
     flex-direction:row;
    margin-left: auto;
    margin-right: auto;
    /* width:100%; */
 }
+
+.hng__logo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
 }
+}
+
+
 
 

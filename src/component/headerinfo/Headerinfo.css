@@ -3,6 +3,7 @@
     align-items: center;
     margin:4% 6% 0 6%;
     gap: 3%;
+    width: 90%;
 
 }
 
@@ -18,7 +19,7 @@
 
 #header__info{
     display: flex;
-width: 791px;
+width: 90%;
 left: 0px; 
 font-family: 'Manrope';
 font-style: normal;
@@ -35,9 +36,27 @@ align-items: center;
 @media only screen and (max-width: 600px){
     #header__info{
     flex-direction:column;
-   margin-left: auto;
-   margin-right: auto;
+   /* margin-left: auto;
+   margin-right: auto; */
+   align-items:center;
    /* min-width:10%; */
+}
+
+.header{
+    width: 90vw;
+}
+
+#mentor_info{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mechanicInfo{
+    /* margin-left: auto;
+    margin-right: auto; */
+    align-items: center;
+    display: row;
+    width: 90vw;
 }
 }
 
@@ -112,7 +131,7 @@ align-items: center;
    margin-left: auto;
    margin-right: auto;
    /* width:100%; */
-   
+
 }
 }
 
